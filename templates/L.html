@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>喜报</title>
+</head>
+
+<style type="text/css">
+
+    .main{
+        width: 750px;
+        {#background: url(static/image/bgimage.jpg);#}
+        {#background: url('static/image/bgimage.jpg') no-repeat fixed top;#}
+        height: 1334px;
+        /*height: 1000px;*/
+        margin: 0 auto;
+    }
+
+    .bgimage{
+        width: 100%;
+    }
+
+    .content{
+        text-align: center;
+        padding-top: 70%;
+    }
+
+    .title{
+        font-family: Microsoft YaHei;
+        font-size: 44px;
+        color: #fff;
+    }
+
+    .list{
+        padding: 0;
+        text-align: center;
+    }
+
+    .item{
+        list-style: none;
+        font-family: Microsoft YaHei;
+        font-size: 30px;
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .number{
+        color: #ffff00;
+    }
+
+</style>
+
+<body background='static/image/bgimage.jpg'>
+    <div class="wrapper">
+        <div class="main">
+           <!-- <img class="bgimage" src="./bgimage.jpg"> -->
+
+           <div class="content">
+{#               <p class="title">恭喜马萍 </p>#}
+               <p class="title">{{_title}} </p>
+
+               <div class="list">
+
+                   <p class="item">新增VIP 1 户</p>
+
+                   <p class="item">
+                        <span class="text">红包有效户奖励</span>
+                        <span class="number">XXX</span>
+                        <span class="text">元</span>
+                   </p>
+
+                   <p class="item">
+                       <span class="text">红包转托奖励</span>
+                        <span class="number">XX</span>
+                        <span class="text">元</span>
+                   </p>
+
+                    <p class="item">
+                       <span class="text">薪酬有效户奖励</span>
+                        <span class="number">XXX</span>
+                        <span class="text">元</span>
+                   </p>
+
+                    <p class="item">
+                       <span class="text">薪酬市值奖励</span>
+                        <span class="number">XXX</span>
+                        <span class="text">元</span>
+                   </p>
+
+                    <p class="item">
+                       <span class="text">合计奖励</span>
+                        <span class="number">XXX</span>
+                        <span class="text">元</span>
+                   </p>
+               </div>
+           </div>
+       </div>
+    </div>
+
+</body>
+
+{#<script type="text/javascript" src="./award.js"></script>#}
+</html>
