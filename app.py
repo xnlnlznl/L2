@@ -15,4 +15,4 @@ def test():
     return render_template('1.html')
 
 if __name__ == '__main__':
-    app.run(static_folder="../static")
+    app.run()
